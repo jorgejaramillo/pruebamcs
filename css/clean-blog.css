@@ -133,15 +133,22 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: #808080;
-  background: no-repeat center center;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  margin-bottom: 50px;
+    background-color: gray;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #25BA70), color-stop(1, #50B74C) );
+    background-image: -o-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: -moz-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: -webkit-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: -ms-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: linear-gradient(to bottom, #25BA70 0%, #50B74C 100%);
 }
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
@@ -393,3 +400,5 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+

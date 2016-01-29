@@ -15,6 +15,24 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.intro-header {
+    background-color: gray;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #25BA70), color-stop(1, #50B74C) );
+    background-image: -o-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: -moz-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: -webkit-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: -ms-linear-gradient(bottom, #25BA70 0%, #50B74C 100%);
+    background-image: linear-gradient(to bottom, #25BA70 0%, #50B74C 100%);
+}
+
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -27,6 +45,9 @@ a {
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn + .btn {
     margin-left: 1rem; }
+
+
+
 
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -243,3 +264,6 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+
