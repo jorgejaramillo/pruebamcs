@@ -401,5 +401,14 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-
+#cursoh1 {
+  color: #345A48;
+  font-size: 41px;
+  line-height: 34px;
+  margin-bottom: 0px;
+}
+#cursoh2 {
+ margin-top: 10px;
+ font-weight: 100;
+}
 
