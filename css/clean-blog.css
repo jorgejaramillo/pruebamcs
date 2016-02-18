@@ -436,3 +436,6 @@ body {
   color: white;
   font-size: 15px;
 }
+#progreso {
+  height: 40px;
+}
