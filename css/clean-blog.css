@@ -435,6 +435,7 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
   font-size: 15px;
+  width: 16.5em;
 }
 #progreso {
   height: 40px;
