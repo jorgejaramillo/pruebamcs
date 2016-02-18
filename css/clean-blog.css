@@ -413,8 +413,13 @@ body {
 }
 
 #cursoh3 {
- margin-top: 16px;
+ font-size: 16px;
  font-weight: 600;
+}
+
+#cursoh4 {
+ font-size: 13px;
+ font-weight: 400;
 }
 
 #textcurso {
