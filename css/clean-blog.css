@@ -411,6 +411,12 @@ body {
  margin-top: 10px;
  font-weight: 100;
 }
+
+#cursoh3 {
+ margin-top: 16px;
+ font-weight: 600;
+}
+
 #textcurso {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
